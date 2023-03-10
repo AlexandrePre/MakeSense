@@ -1,0 +1,36 @@
+.btn-decisioncreate {
+  border-radius: 5px;
+  background-color: #346a82;
+  padding: 0.7vw;
+
+  color: white;
+  font-size: small;
+  font-style: bold;
+  border: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  margin-right: 8vw;
+  margin-top: 0.7vh;
+}
+
+.btn-decision {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 3vh;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+#dashTitle {
+  font-size: 2rem;
+  padding-left: 3vw;
+  padding-bottom: 2vh;
+  color: #346a82;
+}
+#deciTitle {
+  font-size: 2rem;
+  padding-left: 3vw;
+  padding-bottom: 2vh;
+  color: #346a82;
+}

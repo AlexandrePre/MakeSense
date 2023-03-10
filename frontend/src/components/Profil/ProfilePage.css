@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@500&display=swap");
+
+.decisionContainer {
+  display: flex;
+  flex-direction: column;
+}
+.myDecisions {
+  display: flex;
+  flex-direction: row;
+}
+.userDecisions {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3vmin;
+  padding-bottom: 10vmin;
+  padding-top: 10vmin;
+  gap: 13vmin;
+}
+input[type="text"],
+select {
+  width: 50vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 14vmin;
+}
+.profilInfo {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-top: 8vh;
+}
+.profilPic {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vmin;
+  padding-left: 7vmin;
+}
+.profilText {
+  display: flex;
+  flex-direction: column;
+  padding-left: 13vmin;
+}
+.nameEmail {
+  display: flex;
+  flex-direction: row;
+  gap: 12vmin;
+}
+.nameEmailMod {
+  display: flex;
+  flex-direction: row;
+  gap: 7vmin;
+}
+
+#buttonProfil {
+  margin-left: auto;
+  margin-right: 4;
+  width: 22vmin;
+
+  height: 5vmin;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  background-color: #0c3944;
+  color: white;
+  border-radius: 1vmin;
+}
+#importBtn:hover {
+  cursor: pointer;
+}
+.picture {
+  height: 35vmin;
+  width: 35vmin;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background: url("../../assets/img/profil.png");
+  background-size: cover;
+}
+.picture:before {
+  content: "";
+  position: absolute;
+  width: 35vmin;
+  height: 35vmin;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+}
+.picture:hover::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.picture img {
+  display: block;
+}
+.decisionPhase {
+  width: 162.83px;
+  height: 20.38px;
+  margin: auto;
+  margin-top: 2vh;
+  background: rgba(178, 224, 177, 0.28);
+  border: 1px solid #3c9625;
+  border-radius: 7px;
+}
+.picutre button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.picture:hover button {
+  opacity: 1;
+}
+.buttonImage {
+  width: 22vmin;
+  text-align: center;
+  margin-left: 5vmin;
+  height: 4.5vmin;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: #0c3944;
+  color: white;
+  border-radius: 1vmin;
+}
+#inputPos {
+  width: 20vw;
+  margin-top: 3vh;
+}
+#inputFirst {
+  width: 10vw;
+  height: 3vh;
+}
+#inputLast {
+  width: 10vw;
+  height: 3vh;
+}
+#inputMail {
+  height: 5vh;
+  width: 13vw;
+}
+.decisionBubble {
+  width: 325px;
+  height: 184px;
+
+  background: #ffffff;
+  box-shadow: -7px 5px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 34px;
+}
+
+#profileImage {
+  height: 35vmin;
+  width: 35vmin;
+  border-radius: 50%;
+  background-size: cover;
+}
+#authorImg {
+  height: 4vmin;
+  width: 4vmin;
+  border-radius: 50%;
+  background-size: cover;
+}
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+#buttonImage {
+  width: 22vmin;
+  margin: auto;
+  height: 5vmin;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  background-color: #0c3944;
+  color: white;
+  border-radius: 1vmin;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.bioText {
+  width: auto;
+
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+#bioBtn {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: auto;
+  width: 2vw;
+  height: 2vw;
+}
+#importBtn {
+  padding-top: 1vh;
+}
+#profilImg {
+  margin-bottom: 2vmin;
+}
+#line {
+  margin: auto;
+}
+.firstNameProfil {
+  display: flex;
+  gap: 5vmin;
+}
+.lastNameProfil {
+  display: flex;
+  gap: 5vmin;
+}
+.emailProfil {
+  display: flex;
+  gap: 5vmin;
+}
+#info,
+#infoLast,
+#infoFirst,
+#infoMail {
+  margin: auto;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}
+#decisions {
+  white-space: nowrap;
+  margin: auto;
+  padding-left: 5vmin;
+  color: #3c9625;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  max-height: 12vh;
+}
+#descr {
+  text-align: center;
+  max-width: 240px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 1.3rem;
+}
+#byAuthor {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.bio {
+  display: flex;
+  padding-top: 10vmin;
+  gap: 5.8vw;
+}
+.bioMod {
+  display: flex;
+  padding-top: 10vmin;
+  gap: 4vw;
+}
+#pText {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.decisionContainer {
+  padding-top: 5vh;
+}
+.position {
+  padding-top: 6vh;
+  display: flex;
+  text-align: center;
+  gap: 3vw;
+}
+#infoPos {
+  padding: 1vh;
+}
+#posPlaceholder {
+  font-weight: lighter;
+  opacity: 40%;
+  padding-top: 1vh;
+}
+
+#bioPlaceholder {
+  font-weight: lighter;
+  opacity: 30%;
+  margin-bottom: 2vh;
+  font-size: 1.5rem;
+  padding-right: 2vw;
+  font-family: "Raleway", sans-serif;
+}
+#infoPos:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.personalInfo {
+  background-color: #ffffff;
+  padding: 2.3vw;
+  margin-top: 3vh;
+  box-shadow: 1px 5px 8px rgb(0 0 0 / 15%);
+  border-radius: 30px;
+}
+#positionTitle {
+  padding: 1vh;
+}

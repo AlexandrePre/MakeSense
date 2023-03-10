@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@500&display=swap");
+
+#profilForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.imputProfil {
+  width: 50vw;
+  height: 10vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.imputProfil {
+  width: 30vw;
+  background-color: #0c3944;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  margin-left: 19vw;
+  margin-top: 5vh;
+}
+.formContainer {
+  padding-left: 17vw;
+  padding-top: 5vh;
+}
+
+/* Add a background color to the submit button on mouse-over */
+
+.imputProfil:hover {
+  background-color: #45a049;
+  font-family: "Raleway", sans-serif;
+}
+#formLabel {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.position {
+  display: flex;
+}
+.emailMod {
+  gap: 6vw;
+  display: flex;
+}
+.poste {
+  gap: 6vw;
+  display: flex;
+}
+#bio {
+  height: 20vh;
+  width: 50vw;
+  background-color: white;
+  text-align: left;
+}
+.bioForm {
+  gap: 7.6vw;
+  display: flex;
+  padding-top: 5vh;
+}
+.firstNameMod {
+  display: flex;
+  gap: 4.4vw;
+}
+.lastNameMod {
+  display: flex;
+  gap: 6.4vw;
+}

@@ -1,0 +1,17 @@
+.none__btn {
+  display: none;
+}
+.btn__decision button {
+  border: 0.2rem solid;
+  border-color: black;
+  border-radius: 30px;
+  font-size: 2vh;
+  font-weight: 600;
+  color: white;
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #346a82;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}

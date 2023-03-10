@@ -1,0 +1,157 @@
+.chat {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.chat__sidebar {
+  height: 90vh;
+  border-right-style: groove;
+  flex: 0.2;
+  padding: 20px;
+}
+.chat__sidebar h2 {
+  text-align: center;
+}
+.chat__main {
+  flex: 0.8;
+}
+.chat__header {
+  padding-top: 20px;
+  text-align: center;
+}
+.p__chat__bar {
+  align-items: center;
+  display: flex;
+  color: #0c3944;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+.container__chat__bar {
+  background-color: #ffffff;
+  width: 100%;
+  height: 75vh;
+  border-radius: 15px;
+}
+.chat__users > * {
+  display: flex;
+  margin-bottom: 10px;
+  color: #607eaa;
+  font-size: 14px;
+}
+.chat__user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin: 20px;
+}
+.online__users > * {
+  margin-bottom: 10px;
+  color: rgb(238, 102, 102);
+  font-style: italic;
+}
+.chat__mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+}
+.leaveChat__btn {
+  padding: 10px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: #eb5757;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+.message__container {
+  height: 50vh;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.message__container > * {
+  margin-bottom: 10px;
+}
+.chat__footer {
+  padding: 10px;
+  height: 10vh;
+}
+.form__message {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__message input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 15px;
+  box-shadow: 0 16px 48px 0 rgb(0 55 83 / 13%);
+}
+.sendBtn {
+  width: 70px;
+  height: 50px;
+  background-color: #0c3944;
+  border-radius: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.sendBtn:hover {
+  background-color: #98a1a3;
+}
+.message__recipient {
+  background-color: #fff30d;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.message__sender {
+  background-color: #0c3944;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  font-size: 15px;
+  color: #fff;
+}
+.message__chats__r {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 3px;
+}
+.message__chats__p {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.sender__name {
+  text-align: right;
+}
+.message__status {
+  position: fixed;
+  bottom: 16%;
+  font-size: 13px;
+  font-style: italic;
+}
+.message__chat__image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  translate: 10px;
+}

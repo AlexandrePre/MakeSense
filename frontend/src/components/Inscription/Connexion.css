@@ -1,0 +1,25 @@
+.connexion {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+#btn-connexion {
+  font-size: x-small;
+  color: #346a82;
+  margin-top: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.connexion h3 {
+  font-size: xx-small;
+  margin-bottom: 2px;
+  font-family: "Raleway", sans-serif;
+}

@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@500&display=swap");
+
+.form {
+  grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  height: 40vh;
+  width: 40vw;
+}
+
+#logoValidation {
+  position: relative;
+  top: -5vh;
+  left: 18.3vw;
+  width: 2vw;
+}
+
+#btn-visibility-inscription {
+  position: relative;
+  top: -5vh;
+  left: 18.3vw;
+  width: 2vw;
+}
+
+.form h2 {
+  grid-area: 1 / 1 / 2 / 3;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+#lastname {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+}
+
+#lastnameConnexion {
+  width: 96%;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#firstname {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+}
+
+#firstnameConnexion {
+  width: 100%;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#mail {
+  grid-area: 3 / 1 / 4 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+}
+
+#mail h4 {
+  color: red;
+  font-size: xx-small;
+  height: 10px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#email {
+  width: 98%;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#password {
+  grid-area: 4 / 1 / 5 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+}
+
+#password p {
+  color: red;
+  font-size: xx-small;
+  height: 10px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#pass {
+  width: 98%;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+}
+
+#message {
+  grid-area: 5 / 1 / 6 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+#btn-inscription {
+  grid-area: 6 / 1 / 7 / 3;
+  border-radius: 10px solid transparent;
+  background-color: #346a82;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+#termes {
+  grid-area: 7 / 1 / 8 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2px;
+  font-family: "Raleway", sans-serif;
+}
+
+#termes h5 {
+  color: blue;
+  font-size: 9px;
+  font-family: "Raleway", sans-serif;
+}
+
+#passwordConnexion {
+  width: 95%;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+  padding: 12px;
+}
+
+#emailConnexion {
+  width: 95%;
+  font-family: "Raleway", sans-serif;
+  border-radius: 15px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    width: 90vw;
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+}

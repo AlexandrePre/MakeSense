@@ -1,0 +1,142 @@
+.progressBar {
+  height: 10vh;
+  width: 70vw;
+  display: flex;
+  align-items: flex-start;
+}
+.NavList {
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-left: none;
+  margin-top: 1.5rem;
+}
+
+.TitleNotice {
+  grid-area: 1 / 1;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  font-size: 2em;
+  color: white;
+  width: 100%;
+}
+.ProfilImg {
+  grid-area: 1 / 2;
+  width: 3%;
+  margin-left: 10%;
+}
+.NameProfil {
+  margin-left: 14%;
+  grid-area: 1 / 2;
+  color: white;
+}
+
+.one {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: 12.5%;
+  height: 80%;
+  font-size: 0.8em;
+  display: flex;
+  width: 38vw;
+  gap: 2.9vw;
+  padding-top: 1vh;
+  margin-bottom: 1vh;
+}
+.two {
+  width: 8vw;
+  text-align: center;
+}
+.three {
+  margin-left: 12.5%;
+  display: flex;
+  color: white;
+  width: 38vw;
+  gap: 2.9vw;
+  font-size: 0.8em;
+  padding-bottom: 2vh;
+}
+.four {
+  width: 8vw;
+  text-align: center;
+}
+
+p.six {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: -70%;
+  height: 0%;
+  font-size: 0.8em;
+  text-align: center;
+}
+p.seven {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: -45%;
+  height: 0%;
+  font-size: 0.8em;
+  text-align: center;
+}
+p.height {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: -22%;
+  height: 0%;
+  font-size: 0.8em;
+  text-align: center;
+}
+p.nine {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: 2%;
+  height: 0%;
+  font-size: 0.8em;
+  text-align: center;
+}
+p.ten {
+  color: white;
+  grid-area: 1 / 1;
+  margin-left: 26%;
+  height: 0%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.barProgress {
+  position: relative;
+  grid-area: 1 / 1;
+  height: 5px;
+  width: 65%;
+  border: 0px solid;
+  border-radius: 15px;
+  margin-left: 14.5%;
+  background-color: white;
+
+  margin-top: 3vh;
+}
+.barProgress .color {
+  position: absolute;
+  background-color: #08d804;
+  height: 5px;
+  border-radius: 15px;
+  animation: progres 2s linear;
+}
+
+@keyframes progres {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: --statutBar;
+  }
+} ;

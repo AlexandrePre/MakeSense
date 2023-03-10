@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@500&display=swap");
+
+#navbar {
+  height: 10vh;
+  background-color: white;
+}
+.profilMenu__p {
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  width: auto;
+}
+@keyframes textBig {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
+.profilMenu__p:hover {
+  cursor: pointer;
+  animation: textBig 1s;
+}
+.btn-logout {
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  width: auto;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-logout:hover {
+  cursor: pointer;
+  animation: textBig 1s;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 8vh;
+  left: 90vw;
+  width: 7vw;
+  height: 10vh;
+  background-color: white;
+  font-size: small;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid;
+  z-index: 10;
+}
+
+.pictureProfil {
+  grid-area: 1 / 6 / 2 / 7;
+  height: 5vmin;
+  width: 5vmin;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background: url("../../assets/img/profil.png");
+  background-size: cover;
+  margin-bottom: 4vh;
+}
+
+#imgProfil {
+  height: 5vmin;
+  width: 5vmin;
+  border-radius: 50%;
+  background-size: cover;
+  background: url("../../assets/img/profil.png");
+  margin-bottom: 4vh;
+}
+
+.logo {
+  width: 60%;
+  height: 60%;
+  padding-left: 10px;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+.listeNav {
+  list-style-type: none;
+  background-color: white;
+  height: 120%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+
+.logodash {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 18%;
+  margin-left: 10px;
+  margin-bottom: 2vh;
+  padding-left: 2vw;
+}
+
+.decision {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  font-size: xx-small;
+  margin-bottom: 1.7vh;
+}
+
+.decision h4 {
+  margin-top: 1px;
+}
+
+#decision {
+  margin-top: 10%;
+  width: 30%;
+}
+
+.notification {
+  position: relative;
+  grid-area: 1 / 5 / 2 / 6;
+  width: 90%;
+  margin-top: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  font-size: xx-small;
+  margin-bottom: 3vh;
+}
+
+.notification h4 {
+  margin-top: 1px;
+}
+
+#notification {
+  margin-top: 10%;
+  width: 30%;
+}
+
+.message {
+  grid-area: 1 / 4 / 2 / 5;
+  width: 90%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  font-size: xx-small;
+  margin-bottom: 2vh;
+}
+
+.message h4 {
+  margin-top: 1px;
+}
+
+#messageLogo {
+  margin-top: 20%;
+  width: 30%;
+}
+
+.profilPicture {
+  grid-area: 1 / 6 / 2 / 7;
+  display: flex;
+  flex-direction: column;
+  max-width: 30vmin;
+  padding-left: 7vmin;
+}
+
+.admin {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 90%;
+  margin-top: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  font-size: xx-small;
+  margin-bottom: 3vh;
+}
+
+.admin h4 {
+  margin-top: 0.2px;
+}
+
+#adminImg {
+  margin-top: 10%;
+  width: 30%;
+}
+
+#triangle {
+  height: 2vh;
+  width: 2vh;
+  position: relative;
+  top: -3vh;
+  left: 13vw;
+}
+
+.profil {
+  grid-area: 1 / 6 / 2 / 7;
+  width: 30%;
+  margin-top: 0;
+  cursor: pointer;
+  padding-bottom: 11%;
+  padding-left: 10%;
+}
+
+.item {
+  margin-right: 10px;
+  color: #1a3843;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-nav {
+  display: none;
+}
+
+.iconImg {
+  width: 30%;
+  height: 30%;
+}
+.counter {
+  position: absolute;
+  top: 2px;
+  right: 9px;
+  background-color: #f44336;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.counternone {
+  display: none;
+}

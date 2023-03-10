@@ -1,0 +1,21 @@
+.inscription {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-image: url(..\assets\img\fondinscription.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+}

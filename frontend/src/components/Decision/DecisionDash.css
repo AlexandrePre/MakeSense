@@ -1,0 +1,25 @@
+.Decision__dash__h2 {
+  border-color: black;
+  border: 0.2rem solid;
+  border-radius: 30px;
+  font-size: 1.5vh;
+  font-weight: 600;
+  color: black;
+  margin: 0 1rem;
+  padding: 0.2rem;
+  width: 100%;
+  text-align: center;
+}
+.active__Decision__dash__h2 {
+  border: 0.2rem solid;
+  border-color: black;
+  border-radius: 30px;
+  font-size: 1.5vh;
+  font-weight: 600;
+  color: white;
+  margin: 0 1rem;
+  padding: 0.2rem;
+  background-color: #346a82;
+  width: 100%;
+  text-align: center;
+}

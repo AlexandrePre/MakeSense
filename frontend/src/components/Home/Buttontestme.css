@@ -1,0 +1,24 @@
+.btn-testme {
+  border-radius: 5px;
+  background-color: #7b2e40;
+  width: 13vw;
+  height: 10vh;
+  color: white;
+  font-size: larger;
+  font-style: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-testme {
+    display: none;
+  }
+}
